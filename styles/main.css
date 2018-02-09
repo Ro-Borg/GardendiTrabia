@@ -1,0 +1,62 @@
+/* STILI PROFESSIONI */
+.professione {background-color: #3B3B3B; border: 3px solid black; padding: 5px; text-align: left; width: 600px}
+
+.ranger .professione {border-color: green}
+.taskforce .professione {border-color: black}
+.tiratorescelto .professione {border-color: #D77737}
+
+.professione2 {border: 1px dotted black}
+.professione .cima {line-height: 95%; text-align: center}
+.professione .titolo {font-family: georgia; font-size: 40px; text-shadow: 1px 1px 3px black}
+.professione .citazione {color: white; font-style: italic}
+.professione .contenuto {font-family: verdana; padding: 5px; color: white; line-height: 100%; font-size: 12px}
+.professione .dettagli {font-weight: bold}
+
+.professione .lore {border: 1px solid black; padding: 5px}
+
+.professione .titolosezione {color:white; font-family: georgia; font-size: 26px; font-style: italic; text-align: center}
+.professione .skillbox {border: 1px solid black; margin-left: 2px; margin-right: 2px; padding: 5px}
+
+.ranger .professione2, .ranger .skillbox {border-color: #37A400}
+.taskforce .professione2, .taskforce .skillbox {border-color: black}
+.tiratorescelto .professione2, .tiratorescelto .skillbox {border-color: #E49D6D}
+
+.professione .legenda {color: white; font-size: 10px; font-weight: bold; text-align: center}
+.professione .skillbox .contenuto {color: white; font-family: verdana; font-size: 12px; height: 200px; line-height: 100%; overflow:auto}
+.nomeskill {color: white; font-weight: bold; text-decoration: underline}
+
+.professione .descrizioneskill {color: white}
+.professione .skillbox .contenuto2 {color: white; font-family: verdana; font-size: 12px; height: 250px; line-height: 100%; overflow:auto}
+ul.skilllist {list-style-type: none; margin: 0; height: 60px; padding: 0}
+ul.skilllist li {float: left}
+ul.standard li {width: 20%}
+ul.extra li {width: 25%}
+ul.skilllist li a {color: white; display: block; font-weight: bold; text-align: center; padding: 8px; text-decoration: none}
+.contenuto2 hr {border: 1px dashed white}
+
+/* Colori Classe */
+.ranger .titolo, .ranger .dettagli, .ranger .nomeskill, .ranger ul.skilllist li a {color: #37A400}
+.taskforce .titolo, .taskforce .dettagli, .taskforce .nomeskill, .taskforce ul.skilllist li a {color: black}
+.tiratorescelto .titolo, .tiratorescelto .dettagli, .tiratorescelto .nomeskill, .tiratorescelto ul.skilllist li a {color: #E49D6D}
+
+
+/* Colore Skill Professione */
+.ranger .skillclasse {color: #BBFF99}
+.taskforce .skillclasse {color: #CCCCDD}
+.tiratorescelto .skillclasse {color: #FFBBAA}
+
+/* Colore Skill Orientamento */
+.ranger .skillorientamento {color: #50C000}
+.taskforce .skillorientamento {color: #AAAAAA}
+.tiratorescelto .skillorientamento {color: #FFDDBB}
+
+/* Colori Hover Classe */
+ul.skilllist li a:hover {background-color: black; border-radius: 5px; box-shadow: 5px 5px 20px red; color: white}
+.ranger ul.skilllist li a:hover {background-color: #37A400}
+.taskforce ul.skilllist li a:hover {background-color: black}
+.tiratorescelto ul.skilllist li a:hover {background-color: #E49D6D}
+
+/* Colori Lore Classe */
+.ranger .lore, .ranger hr {background-color: #107000; border-color: #37A400}
+.taskforce .lore, .taskforce hr {background-color: #606060; border-color: black}
+.tiratorescelto .lore, .tiratorescelto hr {background-color: #703010; border-color: #E49D6D}
